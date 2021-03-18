@@ -1,0 +1,35 @@
+#abc{
+    text-align: center;
+    border-radius: 20px;
+    background: rgb(34,82,82);
+    background: linear-gradient(299deg, rgba(34,82,82,1) 0%, rgba(22,135,104,1) 100%);
+    
+}
+
+.table{
+    border-radius: 20px;
+    background: rgb(34,82,82);
+    background: linear-gradient(299deg, rgba(34,82,82,1) 0%, rgba(22,135,104,1) 100%);
+}
+
+#btncenter{
+    text-align: left;
+    margin: 8px;
+}
+
+.btnclass{
+    margin: 15px;
+    padding: 5px;
+}
+
+.bgcolor{
+    background: rgb(232,232,232);
+    background: linear-gradient(81deg, rgba(232,232,232,1) 0%, rgba(255,133,133,1) 56%);
+}
+
+.table-fixed thead th{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color:#2f4f4f;
+ }

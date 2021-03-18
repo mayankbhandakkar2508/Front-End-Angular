@@ -1,0 +1,24 @@
+#abc{
+    border-radius: 20px;
+text-align: center;
+background: rgb(88,59,59);
+background: linear-gradient(81deg, rgba(88,59,59,1) 0%, rgba(162,101,116,1) 0%, rgba(59,95,110,1) 100%);
+}
+
+
+.bgcolor{
+    background: rgb(34,193,195);
+background: linear-gradient(56deg, rgba(34,193,195,1) 0%, rgba(252,255,180,1) 100%, rgba(255,255,255,1) 100%);
+}
+
+.table{
+    background: rgb(88,59,59);
+    background: linear-gradient(81deg, rgba(88,59,59,1) 0%, rgba(162,101,116,1) 0%, rgba(59,95,110,1) 100%);
+}
+
+.table-fixed thead th{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+   background-color:#2f4f4f;
+ }

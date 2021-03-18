@@ -1,0 +1,16 @@
+
+.bgcolor{
+    background: rgb(0,255,243);
+    background: linear-gradient(90deg, rgba(0,255,243,1) 0%, rgba(190,248,255,1) 16%, rgba(170,245,255,1) 100%);
+}
+
+.container{
+    margin: auto;
+    border: 3px solid red;
+    border-radius: 25px; 
+    padding: 30px;
+    width: 60%;
+    background: rgb(255,126,95);
+    background: linear-gradient(90deg, rgba(255,126,95,1) 0%, rgba(254,180,123,1) 85%, rgba(254,180,123,1) 100%);
+    text-align: center;
+}

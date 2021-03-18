@@ -1,0 +1,49 @@
+<app-userheader></app-userheader>
+
+<div class="bgcolor">
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-xl-12">
+
+                <h2 class="text-center">Register New User</h2>
+                <hr>
+
+                <div class="form-group">
+
+    <label for="">First Name:</label>
+    <input type="text" class="form-control" placeholder="Enter First Name" #myfname><br>
+    
+    <label for="">Last Name:</label>
+    <input type="text" class="form-control" placeholder="Last Name" #mylname><br>
+    
+    <label for="">Email:</label>
+    <input type="text" class="form-control" placeholder="Enter Email Id" #myemail><br>
+    
+    <label for="">Pincode:</label>
+    <input type="text" class="form-control" placeholder="Enter Pincode" #mypincode><br>
+    
+    <label for="">Phone No:</label>
+    <input type="text" class="form-control" placeholder="Enter Phone No" #myphno><br>
+    
+    <label for="">Status:</label>
+    <input type="text" class="form-control" placeholder="Enter Status" #mystatus><br>
+    
+    <label for="">Date of Birth:</label>
+    <input type="text" class="form-control" placeholder="Enter Date of Birth" #mydob><br>
+    
+    <label for="">Date of Joining:</label>
+    <input type="text" class="form-control" placeholder="Enter Date of Joining" #myjoining><br>
+
+</div>
+
+    <button class="btn btn-outline-light" (click)="onPostUser(myfname.value,mylname.value,myemail.value,mypincode.value,myphno.value,mystatus.value,mydob.value,myjoining.value)">Submit</button>
+<br><br><br>
+</div>
+</div>
+</div>
+
+<br><br><br>
+
+</div>
